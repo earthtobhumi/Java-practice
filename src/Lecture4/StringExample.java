@@ -7,7 +7,6 @@ public class StringExample {
     }
 
     static String greet() {
-        String greeting = "Hey, How are you?";
-        return greeting;
+        return "Hey, How are you?";
     }
 }
