@@ -15,8 +15,7 @@ public class SumFunction {
         int num1 = in.nextInt();
         System.out.print("Enter number 2: ");
         int num2 = in.nextInt();
-        int sumI = num1 + num2;
-        return sumI;
+        return num1 + num2;
     }
     static void sum() {
         //Q: take input of 2 numbers and print their sum
