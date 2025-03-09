@@ -19,8 +19,12 @@ public class Input {
             arr[i] = in.nextInt();
         }
 
-        for (int j : arr) {
-            System.out.println(j + " ");
+        //print using for each loops
+        for (int j : arr) { // for every element in the array, print the element
+            System.out.println(j + " "); // here j represents elements of the array
         }
+        // or
+
+        System.out.println(Arrays.toString(arr));
     }
 }
