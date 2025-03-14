@@ -11,7 +11,7 @@ public class SearchInRange {
         }
         int target = in.nextInt();
         System.out.println(linearSearch(arr, target, 1, 4));
-        in.close(); // Close scanner
+        in.close();
     }
 
     static int linearSearch(int[] arr, int target, int start, int end) {
@@ -27,9 +27,9 @@ public class SearchInRange {
     }
 }
 
-//        Mistake : for (int index = start; index <= end; index++) {
+//  Mistake : for (int index = start; index <= end; index++) {
 //            int element = arr[index];
 //            if (element == target) {
 //                return index;
-//              }
+//            }
 
