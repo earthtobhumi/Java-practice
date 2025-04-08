@@ -29,7 +29,7 @@ public class SearchIn2DArray {
         return -1;
     }
 
-//    static int[] searchElement(int[][] arr, int target) {
+// Approach: Correct    static int[] searchElement(int[][] arr, int target) {
 //        // Check if the array is empty
 //        if (arr.length == 0) return new int[]{-1, -1};
 //
@@ -44,7 +44,8 @@ public class SearchIn2DArray {
 //        return new int[]{-1, -1};
 //    }
 
-//            static int[] searchelement(int[][] arr, int target){
+//  Approach: Mistaken (Inner loop should be j < arr[i].length)
+//  static int[] search_element(int[][] arr, int target){
 //        if (arr.length == 0) return new int[]{-1,-1};
 //        for (int i = 0; i < arr.length; i++) {
 //            if(arr[i].length == 0) continue;

@@ -1,8 +1,15 @@
 package Lecture6;
 
-public class Evendigits {
+import java.util.Scanner;
+
+public class Even_number {
     public static void main(String[] args){
-        int[] arr = {2, 4 ,7, 9, 10, 12, 11};
+        Scanner in = new Scanner(System.in);
+        int[] arr = new int[5];
+        System.out.println("Enter array: ");
+        for (int i=0;i<arr.length;i++){
+            arr[i] = in.nextInt();
+        }
         System.out.println(findNumbers(arr));
     }
 

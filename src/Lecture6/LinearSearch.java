@@ -45,30 +45,22 @@ public class LinearSearch {
     static int linearSearch2(int[] arr, int target){
         if(arr.length == 0) return -1;
 
-        // run a for loop
-        // check every element at every index if it is equal to target
         for (int element : arr)
             if (element == target) {
                 return element;
             }
 
-        // this will execute when none of the above return staements worked
-        // hence target not found
         return -1;
     }
 
     static boolean linearSearch3(int[] arr, int target){
         if(arr.length == 0) return false;
 
-        // run a for loop
-        // check every element at every index if it is equal to target
         for (int element : arr)
             if (element == target) {
                 return true;
             }
 
-        // this will execute when none of the above return staements worked
-        // hence target not found
         return false;
     }
 }

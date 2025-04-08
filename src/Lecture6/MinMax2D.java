@@ -15,7 +15,22 @@ public class MinMax2D {
         }
         System.out.println(Arrays.deepToString(arr));
         System.out.println(max(arr));
+        System.out.println(min(arr));
     }
+
+    static int min(int[][] arr){
+        int min = Integer.MAX_VALUE; // Initialize min with the biggest possible integer
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                if(arr[i][j] < min) {
+                    min = arr[i][j];
+                }
+            }
+
+        }
+        return min;
+    }
+
 
     static int max(int[][] arr){
         int max = Integer.MIN_VALUE; // Initialize max with the smallest possible integer
