@@ -21,9 +21,9 @@ public class SearchIn2DArray {
     }
 
     static int search(int[][] arr, int target) {
-        for (int i = 0; i < arr.length; i++) {
+        for (int[] ints : arr) {
             for (int j = 0; j < arr.length; j++) {
-                if (arr[i][j] == target) return target;
+                if (ints[j] == target) return target;
             }
         }
         return -1;
